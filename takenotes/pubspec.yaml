@@ -1,0 +1,25 @@
+name: noteapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  objectbox: 4.0.2 # if any errors, replace 4.0.2 with any
+  objectbox_flutter_libs: ^4.0.2 # if any errors, replace ^4.0.2 with any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.3.3 # if any errors, replace ^2.3.3 with any
+  objectbox_generator: ^4.0.2 # if any errors, replace ^4.0.2 with any
+
+flutter:
+  uses-material-design: true
